@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Added a font-family for better readability */
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures footer stays at the bottom */
+            background-image: linear-gradient(#fff,#9febe8);
+        }
+        
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 80px;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .navbar nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+
+        .navbar nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </div>
+<center>
+    <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+            <img src="me.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="me.jpg">
+            <img src="my.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+            <img src="sky.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">sky view from mac</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+          <img src="sky.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">sky view from mac</div>
+  </div>
+</center>
+
+    <footer>
+        <p>&copy; Linu<br>All rights reserved</p>
+    </footer>
+</body>
+</html>
